@@ -16,7 +16,7 @@ const BottomTab = createBottomTabNavigator();
 function PokedexStack() {
   return (
     <Stack.Navigator
-      initialRouteName="Pokedex"
+      initialRouteName="Pokedex" 
       screenOptions={{
         headerStyle: { backgroundColor: '#f44242' },
         headerTintColor: '#fff',
